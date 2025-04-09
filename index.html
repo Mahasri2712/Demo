@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Scoreboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-image: url(cricket.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #fa0202;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        .strike-rate {
+            color: #007BFF;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cricket Scoreboard</h1>
+    
+
+    <table>
+            <tr>
+                <th>Player Name</th>
+                <th>Runs</th>
+                <th>Balls Faced</th>
+                <th>Strike Rate</th>
+            </tr>
+            <tr>
+                <td>Virat Kohli</td>
+                <td>87</td>
+                <td>60</td>
+                <td class="strike-rate">145.00</td>
+            </tr>
+            <tr>
+                <td>Rohit Sharma</td>
+                <td>45</td>
+                <td>34</td>
+                <td class="strike-rate">132.35</td>
+            </tr>
+            <tr>
+                <td>KL Rahul</td>
+                <td>28</td>
+                <td>22</td>
+                <td class="strike-rate">127.27</td>
+            </tr>
+            <tr>
+                <td>Hardik Pandya</td>
+                <td>150</td>
+                <td>41</td>
+                <td class="strike-rate">153.66</td>
+            </tr>
+            <tr>
+                <td>MS Dhoni</td>
+                <td>200</td>
+                <td>35</td>
+                <td class="strike-rate">182.86</td>
+            </tr>
+    </table>
+</body>
+</html>
