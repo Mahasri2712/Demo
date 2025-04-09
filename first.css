@@ -1,0 +1,35 @@
+
+h1{
+    margin-left: 50px;
+    border:3px solid pink;
+}
+p{
+    margin: 70px 80px 160px 100px;
+    color:chartreuse;
+}
+h2{
+    /*padding: 50px;
+    border: 9px solid red;
+   border-style: dashed double dotted;
+   border-style: groove;
+   border-style: inset;
+   border-style:outset;
+   border-style: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 5px 20px;
+    border-color: blue violet red yellow;*/
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-bottom: 200px;
+    margin-left: 80px;
+    border: 2px solid black;
+    height: 70%;
+}
+body{
+    /*background-image: url(images.jpeg);
+    background-repeat: repeat-y;
+    background-position: right bottom;
+    background-attachment: scroll;*/
+    background: url(images.jpeg) no-repeat right center fixed;
+}
